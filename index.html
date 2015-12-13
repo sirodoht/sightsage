@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="description" content="A mobile app designed to offer you wisdom on your sightseeing in Thessaloniki">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url"           content="http://bordershare.gr" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Share resources; Show solidarity with refugees" />
+    <meta property="og:description"   content="BorderShare is an information distributor for anything you can do to help the refugee problem. We collect all the refugee drop-in points for food, clothes and everything they might need." />
+    <meta property="og:image"         content="http://bordershare.gr/assets/img/logo.png" />
+
     <title>Sight Sage - A mobile app designed to offer you wisdom on your sightseeing in Thessaloniki!</title>
     <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"> -->
@@ -13,6 +20,14 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "htttps://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=187318774651877";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="navbar-wrapper">
       <div class="container">
@@ -100,8 +115,12 @@
 
         <div class="row featurette">
           <div class="col-md-12">
-<!--            <h1 class="featurette-title"><span class="glyphicon glyphicon-ok"></span> Why you should get Sight Sage</h1>-->
-            <h1 class="featurette-title"><img src="img/logo-white.png" width="80px"> Why you should get Sight Sage </h1>
+            <h1 class="featurette-title"><img src="img/logo-white.png" width="80px"></h1>
+            <div class="social-share text-center">
+              <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">Tweet</a>
+              <div class="fb-like" data-href="https://www.facebook.com/bordershare" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-width="200"></div>
+              <g:plus action="share"></g:plus>
+            </div>
           </div>
         </div>
 
@@ -225,5 +244,23 @@
     <!-- <script src="js/jquery.js"></script> -->
     <script src="js/script.js"></script>
 
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
   </body>
 </html>
