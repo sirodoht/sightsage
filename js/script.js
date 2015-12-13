@@ -1,8 +1,5 @@
 (function(){
 
-	// Does it load?
-	console.log("If you skate on the thin ice of modern life, don't be surprised when a crack in the ice appears under your feet.");
-
 	// Smooth scrolling from navbar
 	$('li > a').click(function(){
 		$('html, body').animate({

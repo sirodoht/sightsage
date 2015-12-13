@@ -80,3 +80,7 @@ a:hover,
 a:focus {
 /*  color: rgba(38, 113, 47, 0.1);*/
 }
+
+.thumbnail {
+  border: none;
+}
