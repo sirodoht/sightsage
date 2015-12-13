@@ -1,0 +1,5 @@
+# Windows and OSX annoying files
+Thumbs.db
+.DS_Store
+
+img/assets
