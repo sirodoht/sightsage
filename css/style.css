@@ -122,6 +122,11 @@ footer {
   margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 
+.featurette-end {
+  margin: 40px 0;
+  display: block;
+}
+
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
@@ -226,4 +231,3 @@ footer {
 /*  color: #fff;*/
 /*  background-color: rgba(38, 113, 47, 1);*/
 }
-
