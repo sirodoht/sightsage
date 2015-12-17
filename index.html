@@ -5,12 +5,6 @@
     <meta name="description" content="Intelligent tourist experience for Thessaloniki">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta property="og:url"           content="http://bordershare.gr" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Share resources; Show solidarity with refugees" />
-    <meta property="og:description"   content="BorderShare is an information distributor for anything you can do to help the refugee problem. We collect all the refugee drop-in points for food, clothes and everything they might need." />
-    <meta property="og:image"         content="http://bordershare.gr/assets/img/logo.png" />
-
     <title>Sight Sage - Intelligent tourist experience for Thessaloniki!</title>
     <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"> -->
@@ -20,15 +14,6 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
   </head>
   <body>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "htttps://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=187318774651877";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
     <div class="navbar-wrapper">
       <div class="container">
         <div class="navbar navbar-inverse navbar-sage navbar-static-top" role="navigation">
@@ -118,8 +103,7 @@
             <h1 class="featurette-title"><img src="img/logo-white.png" width="80px"></h1>
             <div class="social-share text-center">
               <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" data-size="large">Tweet</a>
-              <div class="fb-like" data-href="https://www.facebook.com/bordershare" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false" data-width="200"></div>
-              <g:plus action="share"></g:plus>
+              <img src="img/fb-share.png" alt="FB Share" style="margin-bottom: 20px; margin-left: 20px;">
             </div>
           </div>
         </div>
@@ -128,7 +112,7 @@
 
         <div id="how-it-works" class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Using GPS, Sight Sage pinpoints your location <span class="text-muted"></span></h2>
+            <h2 class="featurette-heading">Using GPS, Sight Sage pinpoints your location</h2>
             <p class="lead">With your permission and using your phone's or tablet's GPS Sight Sage pinpoint your location. After that Sight Sage shows you where you are on the map.</p>
           </div>
           <div class="col-md-5">
@@ -143,7 +127,7 @@
             <img class="featurette-image img-responsive" src="img/places.png" alt="Places image">
           </div>
           <div class="col-md-7">
-            <h2 class="featurette-heading">Places near you <span class="text-muted"></span></h2>
+            <h2 class="featurette-heading">Places near you</h2>
             <p class="lead">Sight Sage can show you what places you can visit by creating a roadmap. You can pick between sightseeing, shopping, nightlife, walking around, food, coffee-bars and alternative activities.</p>
           </div>
         </div>
@@ -151,7 +135,7 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Where to go first? <span class="text-muted"></span></h2>
+            <h2 class="featurette-heading">Where to go first?</h2>
             <p class="lead">You can pick what places you want to visit and then using shortest path algorithms a guided route is proposed!</p>
           </div>
           <div class="col-md-5">
@@ -166,7 +150,7 @@
             <img class="featurette-image img-responsive" src="img/fav-history.png" alt="Favorites-history image">
           </div>
           <div class="col-md-7">
-            <h2 class="featurette-heading">We value your time <span class="text-muted"></span></h2>
+            <h2 class="featurette-heading">We value your time</h2>
             <p class="lead">Since your time at a place can be limited, using our categories feature you can choose what kind of places you want to visit. Furthermore, you can add places to your favorites and track your history.</p>
           </div>
         </div>
@@ -183,13 +167,22 @@
           </div>
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="img/offers.png" alt="Exclusive offers image">
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Exclusive offers</h2>
+            <p class="lead">Our users have exclusive offers on coffee, restaurants, bars and shopping stores.</p>
+          </div>
+        </div>
+
         <div class="featurette-end"></div>
 
-        </div>
       </div>
-      <!-- /END THE FEATURETTES -->
-
-
+    </div>
 
     <div id="contact">
       <div class="container">
@@ -244,7 +237,6 @@
     <!-- <script src="js/jquery.js"></script> -->
     <script src="js/script.js"></script>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script>window.twttr = (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
